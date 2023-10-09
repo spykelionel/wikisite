@@ -1,3 +1,4 @@
 from django.contrib import admin
+from bug.models import Bug
 
-# Register your models here.
+admin.site.register(Bug)
